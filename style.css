@@ -1,0 +1,336 @@
+img {
+    max-width: 100%;
+}
+
+@media(min-width: 600px) {
+    .header-div {
+        display: flex;
+        width: 100%;
+    }
+
+    .header-p {
+        width: 50%;
+    }
+
+    .header-ul {
+        width: 50%;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    .main-section {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .first-p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-text {
+        width: 50%;
+        text-align: center;
+        font-size: 72px;
+        margin-right: 20px;
+    }
+
+    .paragraph {
+        font: normal normal normal 38px/67px Source Code Pro;
+        letter-spacing: 3.77px;
+        color: #1C4B43;
+        opacity: 1;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-text {
+        text-align: center;
+    }
+
+    #first-p {
+        font: normal normal 300 48px/48px Source Sans Pro;
+        letter-spacing: 0px;
+        color: #303030;
+
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .paragraph {
+        font: normal normal normal 27px/48px Source Code Pro;
+        letter-spacing: 2.7px;
+        color: #1C4B43;
+        opacity: 1;
+        margin: 0;
+        margin-top: 15px;
+        background: #16E0BD;
+        margin-bottom: 20px;
+    }
+
+    .section-logo {
+        margin: auto;
+    }
+
+    #my-work {
+        margin: 0;
+        margin-top: 60px;
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./Assets/component\ \(12\).png);
+        background-repeat: no-repeat;
+    }
+
+    #my-work-text {
+        display: block;
+    }
+
+    #intro {
+        display: block;
+        margin-top: 0;
+    }
+
+    #intro-p1 {
+        background: #16E0BD;
+        font: normal normal normal 27px/48px Source Code Pro;
+        letter-spacing: 0px;
+        color: #303030;
+        min-width: 267px;
+    }
+
+    .intro-text {
+        margin-bottom: 22.5px;
+    }
+
+    #project, #project-img {
+        display: block;
+    }
+
+    #project-img {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 56px;
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #project-text {
+        padding-top: 86px;
+    }
+
+}
+
+header {
+    font: normal normal 600 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #303030;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 1)
+}
+
+.section-logo {
+    order: 2;
+    max-width: 313px;
+}
+
+.my-work {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Assets/component\ \(12\).png);
+    min-height: 500px;
+}
+
+.my-work h1 {
+    font: normal normal 900 60px/60px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #14CFAE;
+    opacity: 1;
+}
+
+hr {
+    width: 100px;
+}
+
+.my-work-text {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+}
+
+.my-work-text h5 {
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.my-work-text p {
+    max-width: 306px;
+    font: normal normal 300 18px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.my-work button {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 201px;
+    height: 42px;
+    /* UI Properties */
+    background: #16E0BD 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal 900 16px/16px Source Sans Pro;
+    letter-spacing: 0.8px;
+    color: #333333;
+    opacity: 1;
+}
+
+.intro {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    gap: 24px;
+}
+
+
+.intro h1 {
+    text-align: center;
+    font: normal normal 900 60px/60px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+}
+
+.intro h3 {
+    text-align: center;
+    font: normal normal normal 24px/24px Source Code Pro;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+}
+
+.intro p {
+    font: normal normal 300 18px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    max-width: 556px;
+}
+
+
+.project {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E2E;
+    min-height: 900px;
+
+}
+
+.project-img {
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.project-text {
+    margin: 0;
+    padding: 0;
+}
+
+.project-logo {
+
+    transition: ease-in-out 700ms;
+
+}
+
+.project img:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.project h1 {
+    margin: 0;
+    padding: 0;
+    font: normal normal 900 60px/60px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project h5 {
+
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #16E0BD;
+    opacity: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+}
+
+footer {
+    background: #141414 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    min-height: 252px;
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #16E0BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+footer p  {
+    margin: 0;
+    padding: 0;
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #16E0BD;   
+}
+footer a {
+    font: normal normal 900 24px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #16E0BD; 
+}
+.icon {
+    display: flex;
+    gap: 57px;
+}
